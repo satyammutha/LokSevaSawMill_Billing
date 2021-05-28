@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView1_qty"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CHANGING USER PASSWORD" />
+
+    <TextView
+        android:id="@+id/textView2_len"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="OLD PASSWORD" />
+
+    <EditText
+        android:id="@+id/editText33"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPassword" >
+
+        <requestFocus />
+    </EditText>
+
+    <TextView
+        android:id="@+id/textView3_wid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="NEW PASSWORD" />
+
+    <EditText
+        android:id="@+id/editText44"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPassword" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CONFIRM NEW PASSWORD" />
+
+    <EditText
+        android:id="@+id/editText11"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CHANGE PASSWORD" />
+
+</LinearLayout>
